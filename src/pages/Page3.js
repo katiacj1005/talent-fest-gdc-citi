@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Page3 = () => {
     return (
@@ -27,8 +28,8 @@ const Page3 = () => {
         <button> Actualizar cuenta(s)</button>
         <hr />
         <div className ="transferButtons">
-        <button>Continuar</button>
-        <button>Cancelar</button>
+        <button><Link to=""> Continuar </Link></button>
+        <button><Link to=""> Cancelar </Link></button>
         </div>
         </form>
         </>

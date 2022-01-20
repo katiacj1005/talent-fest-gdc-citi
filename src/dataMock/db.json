@@ -1,0 +1,49 @@
+{
+    "accountGroupDetails": [
+      {
+        "accountGroup": "CHECKING",
+        "checkingAccountsDetails": [
+          {
+            "productName": "Business Checking",
+            "accountNickname": "My checking account",
+            "accountDescription": "Business Checking - 9594",
+            "balanceType": "ASSET",
+            "displayAccountNumber": "XXXXXX9594",
+            "accountId": "da549a7cc86472ee05272c7bd0a4483f57174f2110e7ad961a267995031fda66c6d5475de467a65739750107b621e5a01be7cc0dc085a825fa384795904293f6",
+            "currencyCode": "USD",
+            "accountStatus": "ACTIVE",
+            "currentBalance": 10000.25,
+            "availableBalance": 15000.25
+          }
+        ]
+      }
+    ],
+    "customer": {
+      "customerId": "bd12a6d89815aed77be876225b9a2c7f6648f0af82e84198f49d1b7e51a23fae1621936bc1addf5fdceca25c3aae5f92071fb1d6218dae32ca83b199c29962ee"
+    },
+
+    "registerNewAccount":[
+        {
+          "accountType": "Debito",
+          "displayAccountNumber": "9078653487565656",
+          "alias": "viky UX",
+          "MaximumAmount": 3000.00,
+          "eMail": "vicytm@gmail.com"
+ 
+        }
+    ],
+    
+    "transaction":[
+        {
+            "retirementAccount":"Business Checking - 9594",
+            "thirdPartyAccount":"viky UX-Banamex-MXN-601-VICTORIA TEJEDA",
+            "transactionAmount":200.00,
+            "transactionDate": "2016-04-15",
+            "transactionDescription": "PRE-AUTHORIZED TRANSFER TO CHECKING PLUS",
+            "transactionId":"092484893lkj",
+            "status": "Posted"
+        }
+    ]
+
+
+  }

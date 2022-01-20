@@ -1,5 +1,6 @@
 import React from 'react'
-import transfer from '../Scss/Layout/transfer.scss'
+import { Link } from 'react-router-dom'
+// import transfer from '../Scss/Layout/transfer.scss'
 
 const Transfers = () => {
     return (
@@ -25,8 +26,8 @@ const Transfers = () => {
         </div>   
         <hr />
         <div className ="transferButtons">
-        <button>Continuar</button>
-        <button>Cancelar</button>
+        <button><Link to=""> Continuar </Link></button>
+        <button><Link to=""> Cancelar </Link></button>
         </div>
         <p className ="reminder">Recuerda que ningún ejecutivo de Citibanamex nunca te llamará para dar de alta una cuenta, ya sea como prueba, asesoría o</p>
         <p  className ="reminder">para proteger tu dinero. Si recibes llamadas de este tipo cuelga, ya que es un fraude</p>

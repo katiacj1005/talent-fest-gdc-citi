@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SideBar = () => {
     return (
@@ -9,9 +10,9 @@ const SideBar = () => {
         <div className= "col-3 border-sm">
             <div className="container d-flex"> 
             <ul className="navbar-nav w-100"> {/* "nav nav-pills nav-fill" */}
-            <li className ="nav-item"><p className="nav-link active">Transferir o pagar</p></li>
+            <li className ="nav-item"><p className="nav-link active"> <Link to=""> Transferir o pagar </Link></p></li>
             <hr />
-            <li className ="nav-item"> <p className="nav-link active">Dar de alta cuenta, tarjeta, servivio, otros</p></li>
+            <li className ="nav-item"> <p className="nav-link active"> <Link to=""> Dar de alta cuenta, tarjeta, servivio, otros </Link></p></li>
             <hr />
             <li className ="nav-item"><a className="nav-link disabled" href="#">Modificar altas</a></li>
             <hr />
