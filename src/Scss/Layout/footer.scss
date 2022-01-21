@@ -3,20 +3,31 @@ footer {
         font-weight: 600;
         text-decoration: none;
     }
+
+    .link-primary{
+        margin-left: 15vh;
+    }
+
     .col-md-4{
         width: 100%;
         justify-content: space-around;
+        justify-content: space-between;
 
         .links{ 
             display: flex;
             flex-direction: column;
             align-items: flex-end;
-            
+            font-size: 1.1rem;  
+            margin-right: 5vh;
         }
     }
     .autor{
         margin-left: 5rem;
         margin-right: 5rem;
+        font-size: 1.1rem;
+    }
+    .text-muted{
+        margin-left: 5vh;
     }
 
     
