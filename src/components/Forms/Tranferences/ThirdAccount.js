@@ -4,6 +4,7 @@ import { useTransfers } from '../../../hooks/useTransfers'
 import "../../../Scss/Layout/DataTranfer.scss"
 import "../../../Scss/Layout/transfer.scss";
 import SideBar from '../../SideBar'
+import { ModalSia } from '../../modal/ModalSia';
 
 const ThirdAccount = ({ selectValueRetirement, selectValue }) => {
     const navigate = useNavigate();
@@ -112,6 +113,9 @@ const ThirdAccount = ({ selectValueRetirement, selectValue }) => {
             </button>
           </div>
         </form>
+      </section>
+      <section>
+        <ModalSia />
       </section>
     </>
   );

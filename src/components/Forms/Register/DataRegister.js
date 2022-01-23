@@ -4,6 +4,8 @@ import UseRegister from "../../../hooks/Register/UseRegister";
 import "../../../Scss/Layout/transfer.scss";
 import "../../../Scss/Layout/DataTranfer.scss";
 import SideBar from "../../SideBar";
+import { ModalSia } from "../../modal/ModalSia";
+import "../../../Scss/Layout/Modal.scss";
 
 const DataRegister = () => {
   const { typeRegister, newRegister } = UseRegister();
@@ -67,6 +69,9 @@ const DataRegister = () => {
           </p>
         </form>
       </section>
+      
+        <ModalSia />
+      
     </>
   );
 };

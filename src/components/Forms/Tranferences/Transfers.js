@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { useTransfers } from "../../../hooks/useTransfers";
 import "../../../Scss/Layout/transfer.scss";
 import SideBar from "../../SideBar";
+import { ModalSia } from "../../modal/ModalSia";
+import "../../../Scss/Layout/Modal.scss";
 
 const Transfers = ({ recoverySelectValue, selectValue, recoverySelectValueRet }) => {
   const navigate = useNavigate();
@@ -104,6 +106,9 @@ const Transfers = ({ recoverySelectValue, selectValue, recoverySelectValueRet })
             </button>
           </div>
         </form>
+        
+        <ModalSia />
+  
       </section>
     </>
   );

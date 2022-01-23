@@ -1,6 +1,10 @@
 :root{
---oscuros:black;
---claros: white;
+    --oscuros:#070507;
+    --whiteBack: white; 
+    --claros: #ead7ba;
+    --navBarlight: #056dae;
+    --navBarDark: #213946;
+    
 }
 
 body {
@@ -8,7 +12,7 @@ body {
     color: var(--color);
 }
 body.light{
---background-color:var(--claros);
+--background-color:var(--whiteBack);
 --color:var(--oscuros)
 }
 
@@ -16,3 +20,14 @@ body.dark{
     --background-color:var(--oscuros);
 --color:var(--claros)
 }
+header{
+    background-color: #056dae;  
+}
+body.light{
+    --background-color:var(--navBarlight);
+    }
+    
+    body.dark{
+        --background-color:var(--oscuros);
+    --color:var(--claros)
+    }
